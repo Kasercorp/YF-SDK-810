@@ -21,15 +21,18 @@ Kloud Development (Public SDK)
     Please download from http://old-releases.ubuntu.com/releases/
 
 ## 3. How to setup the SDK environment:
-    
+
+```shell    
    ./install-820-sdk-64bit.sh
+```
 
 ## 4. Please install JDK from 
     
    http://github.com/flexiondotorg/oab-java6
 
+```shell
    git clone https://github.com/flexiondotorg/oab-java6.git
-
+```
 
 ## 5. How to build your Android:
 
