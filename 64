@@ -1,6 +1,11 @@
 #!/bin/bash
 
 echo "-> Run as root"
-sudo apt-get -y install sun-java6-jdk kernel-package meld 
-sudo apt-get -y install git-core gitk gnupg flex bison gperf lib32ncurses5-dev
-sudo apt-get -y install build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 ia32-libs x11proto-core-dev libx11-dev lib32readline5-dev lib32z-dev uboot-mkimage
+sudo apt-get update
+sudo apt-get -y install sun-java6-jdk kernel-package subversion 
+sudo apt-get -y install gitk gnupg flex bison gperf lib32ncurses5-dev
+sudo apt-get -y install build-essential zip curl zlib1g-dev:i386 gcc-multilib g++-multilib mingw32 tofrodos python-markdown libxml2-utils xsltproc libc6-dev x11proto-core-dev libx11-dev:i386 lib32readline6-dev libgl1-mesa-glx:i386 libgl1-mesa-dev uboot-mkimage
+sudo apt-get autoremove
+sudo apt-get autoclean
+sudo apt-get clean
+sudo apt-get check

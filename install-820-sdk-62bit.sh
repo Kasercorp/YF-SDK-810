@@ -2,9 +2,9 @@
 
 export LC_ALL=C
 
-myversion=`cat /etc/issue | grep -i "ubuntu 10.04"`
+myversion=`cat /etc/issue | grep -i "ubuntu 12.04"`
 if [ -z "$myversion" ]; then
-   echo -e "\n\nSorry, this SDK requires the Ubuntu 10.04 LTS !"
+   echo -e "\n\nSorry, this SDK requires the Ubuntu 12.04 LTS !"
    echo -e "Please download ISO file and install from http://old-releases.ubuntu.com/releases/\n\n"
    exit 1
 fi

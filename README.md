@@ -1,7 +1,7 @@
 YF820 SDK
 =============
 
-This SDK included YF 820/825 platforms
+This SDK included YF820/825 platforms
 
 Kloud Development (Public SDK)
 ==============================
@@ -16,7 +16,7 @@ Kloud Development (Public SDK)
 ## 2. OS requirement:
 
     YF820/825
-    Ubuntu 12.04 64bits Desktop or Server 
+    Ubuntu 12.04 64-bit Desktop or Server 
     
     Please download from http://old-releases.ubuntu.com/releases/
 
