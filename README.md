@@ -29,20 +29,25 @@ Kloud Development (Public SDK)
  
    Ubuntu 10.04 32-bit:
 
+```shell
    ./install-810-sdk-32bit.sh
+```
 
    Ubuntu 10.04 64-bit:
-   
+
+```shell   
    ./install-810-sdk-64bit.sh
+```
 
 ### YF815/825
    
    Ubuntu 12.04 64-bit:
 
-
+```shell
    git fetch origin
    git checkout -b YF820-SDK origin/YF820-SDK
-
+   ./install-820-sdk-64bit.sh
+```
 
    checkout YF820-SDK branch
 
@@ -50,8 +55,9 @@ Kloud Development (Public SDK)
     
    http://github.com/flexiondotorg/oab-java6
 
+```shell
    git clone https://github.com/flexiondotorg/oab-java6.git
-
+```
 
 ## 5. How to build your Android:
 
