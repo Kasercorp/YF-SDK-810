@@ -15,23 +15,34 @@ Kloud Development (Public SDK)
 
 ## 2. OS requirement:
 
-    *YF810/815*   
-    - Ubuntu 10.04 LTS (32/64) Desktop or Server 
+    YF810/815   
+    Ubuntu 10.04 LTS (32/64) Desktop or Server 
     
-    *YF820/825*
-    - Ubuntu 12.04 64bits Desktop or Server 
+    YF820/825
+    Ubuntu 12.04 64-bit Desktop or Server 
     
-    Please download from  http://old-releases.ubuntu.com/releases/10.04/
+    Please download from  http://old-releases.ubuntu.com/releases/
 
 ## 3. How to setup the SDK environment:
-    
-   - Ubuntu 10.04 32bit
+
+### YF810/815
+ 
+   Ubuntu 10.04 32-bit
 
    ./install-810-sdk-32bit.sh
 
-   - Ubuntu 10.04 64bit
+   Ubuntu 10.04 64-bit
    
    ./install-810-sdk-64bit.sh
+
+### YF815/825
+   
+   Ubuntu 12.04 64-bit
+
+   git fetch origin
+   git checkout -b YF820-SDK origin/YF820-SDK
+
+   checkout YF820-SDK branch
 
 ## 4. Please install JDK from 
     
