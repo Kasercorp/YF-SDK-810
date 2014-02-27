@@ -1,5 +1,7 @@
-YF-SDK
-======
+YF810/820 SDK
+=============
+
+This SDK included YF 810/815/820/825 platforms
 
 Kloud Development (Public SDK)
 ==============================
@@ -13,8 +15,12 @@ Kloud Development (Public SDK)
 
 ## 2. OS requirement:
 
+    *YF810/815*   
     - Ubuntu 10.04 LTS (32/64) Desktop or Server 
-
+    
+    *YF820/825*
+    - Ubuntu 12.04 64bits Desktop or Server 
+    
     Please download from  http://old-releases.ubuntu.com/releases/10.04/
 
 ## 3. How to setup the SDK environment:
