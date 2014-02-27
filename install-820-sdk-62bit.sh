@@ -19,6 +19,15 @@ myhome=`pwd`
 $myhome/64
 
 echo ""
+echo "-> Fetch toolchain from OpenFoundry server..."
+mkdir -p ~/sdk
+cd ~/sdk
+svn co -r 1 http://svn.openfoundry.org/stanix/toolchain
+cd /opt
+sudo tar xvzf ~/sdk/toolchain/arm-2010.09.tgz
+sync
+
+echo ""
 echo "==> Setup your SDK done!"
 echo "==> You need also install sun-java6-jdk"
 echo "==> http://github.com/flexiondotorg/oab-java6"
