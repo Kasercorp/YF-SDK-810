@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "-> Run as root"
+sudo apt-get -y install sun-java6-jdk kernel-package meld 
+sudo apt-get -y install git-core gitk gnupg flex bison gperf lib32ncurses5-dev
+sudo apt-get -y install build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 ia32-libs x11proto-core-dev libx11-dev lib32readline5-dev lib32z-dev uboot-mkimage
