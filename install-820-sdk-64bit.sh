@@ -22,19 +22,21 @@ echo ""
 mkdir -p ~/sdk
 cd ~/sdk
 
-echo "-> Fetch java installer..."
-git clone https://github.com/flexiondotorg/oab-java6.git
-
+echo "-> Fetch JDK from OpenFoundry server..."
+svn co -r 35 https://www.openfoundry.org/svn/my-shellscript/tools/jdk
 echo ""
 echo "-> Fetch toolchain from OpenFoundry server..."
 svn co -r 1 http://svn.openfoundry.org/stanix/toolchain
+
 cd /opt
 sudo tar xvzf ~/sdk/toolchain/arm-2010.09.tgz
+sudo tar xvzf ~/sdk/jdk/jdk1.6.0_37.tgz
+
 sync
-echo "-> Toolchain has installed to /opt"
 
 echo ""
+echo "==> Toolchain has installed to /opt"
 echo "==> Setup your SDK done!"
-echo "==> You need also install sun-java6-jdk"
-echo "==> cd ~/sdk to install jdk"
+echo "==> you need set PATH by youself before start"
+echo ""
 
