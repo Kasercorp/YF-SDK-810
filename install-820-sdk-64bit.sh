@@ -38,5 +38,5 @@ echo ""
 echo "==> Toolchain has installed to /opt"
 echo "==> Setup your SDK done!"
 echo "==> you need set PATH by youself before start"
-echo ""
+echo "==> PATH=/opt/arm-2010.09/bin:/opt/jdk1.6.0_37/bin:$PATH"
 
